@@ -38,10 +38,13 @@ fx mkzedboot <udisk_device>
 在NUC上的`zedboot`会通过`mdns协议`对外广播自己的存在.
 
 ## 安装
-请在终端中运行以下代码以完成分区与安装:
+请在NUC终端中运行以下代码以完成分区与安装:
 ```shell
 install-disk-image wipe
 dm reboot
+```
+并且在终端中运行以下代码:
+```shell
 fx pave
 ```
 期间NUC可能会重启一次.
