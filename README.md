@@ -15,7 +15,7 @@ Fuchsia采用了`jiri`作为源代码管理工具.Google提供了一份自动化
 ```shell
 curl -s "https://fuchsia.googlesource.com/fuchsia/+/master/scripts/bootstrap?format=TEXT" | base64 --decode | bash
 ```
-这段代码会在当前目录下新建一个名为`fuchsia`的目录,然后将预编译的`jiri`与`fx`脚本放入该目录中的`.jiri_root/bin`目录下,并将完整的代码置入fuchsia目录中.
+这段代码会在当前目录下新建一个名为`fuchsia`的目录,然后将预编译的`jiri`与`fx`脚本放入该目录中的`.jiri_root/bin`目录下,并将完整的代码置入`fuchsia`目录中.
 
 ## 编译
 Fuchsia的编译参数格式如下:
